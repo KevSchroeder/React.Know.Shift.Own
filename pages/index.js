@@ -36,69 +36,48 @@ export default function Home() {
           />
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-right text-gray-900 sm:text-4xl">
-              Know Shift Own
-            </h1>
-            <p className="mt-6 text-xl leading-8 text-gray-700"></p>
-          </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
             <div className="relative lg:order-last lg:col-span-5">
-              <svg
-                className="absolute -top-[40rem] left-1 -z-10 h-[64rem] w-[175.5rem] -translate-x-1/2 stroke-gray-900/10 [mask-image:radial-gradient(64rem_64rem_at_111.5rem_0%,white,transparent)]"
-                aria-hidden="true"
-              >
-                <defs>
-                  <pattern
-                    id="e87443c8-56e4-4c20-9111-55b82fa704e3"
-                    width={200}
-                    height={200}
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <path d="M0.5 0V200M200 0.5L0 0.499983" />
-                  </pattern>
-                </defs>
-                <rect
-                  width="100%"
-                  height="100%"
-                  strokeWidth={0}
-                  fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
-                />
-              </svg>
-              <div className="mt-40 flex gap-x-4">
-                <img
-                  src="https://ipfs.filebase.io/ipfs/QmR8mgHQzktxvdNw61ShtjyotzmAFE5XwMGdpgAwbYAke5"
-                  alt=""
-                  className=""
-                />
-              </div>
+              
+              
             </div>
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
-              <h2 className="mt-32 text-2xl font-bold tracking-tight text-gray-900">
-                KNOW
+              <h2 className="mt-14 text-2xl font-bold tracking-tight text-gray-900">
+                KNOW Your Body
               </h2>
               <p className="mt-8">
-                Your Body - Discover the science and innate treasures of your
+                Discover the science and innate treasures of your
                 well-being and be the power you and your vision need to succeed.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                SHIFT
+                SHIFT Your Mind
               </h2>
               <p className="mt-8">
-                Your Mind - Transform your standard operating system into the
+                Transform your standard operating system into the
                 unique set of habits and strategies for your exponential growth.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                OWN
+                OWN Your Future
               </h2>
               <p className="mt-8">
-                Your Future - Empowering you, your business, and your vision for
+                Empowering you, your business, and your vision for
                 sustained growth, profitability, and impact.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <div className="bg-white py-16 sm:py-24">
+      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        
+          <img
+            className="mt-2 h-full w-full object-cover"
+            src="https://ipfs.filebase.io/ipfs/QmQcrkhXMWoPBuda2su3wi6TAicHJzDVUK7WkscpTjGLhA"
+            alt=""
+          />              
+          </div>
+        </div>
+      
       )
     </Layout>
   );

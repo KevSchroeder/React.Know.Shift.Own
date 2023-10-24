@@ -31,7 +31,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <Link href="/contact" className="rounded-md bg-[#102E44] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          <Link href="/contact" className="rounded-md bg-[#102E44] px-3 py-2 text-sm font-ubuntu text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Conatct Us
           </Link>
           {/* <a

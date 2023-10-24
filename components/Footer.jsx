@@ -102,9 +102,6 @@ export default function Footer() {
               src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo" 
               alt="Company name"
             />
-            <p className="text-sm leading-6 text-gray-300">
-              Making the world a better place through constructing elegant hierarchies.
-            </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
