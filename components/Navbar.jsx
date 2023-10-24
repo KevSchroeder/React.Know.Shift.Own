@@ -60,15 +60,15 @@ export default function Navbar() {
               <span className="sr-only">Know. Shift. Own</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo"
                 alt=""
               />
             </a>
             <a
               href="#"
-              className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="ml-auto rounded-md bg-[#102E44] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Sign up
+              Contact Us
             </a>
             <button
               type="button"
