@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .text-top-left {
+ width: 200px; 
+ position: relative;
+ top: 17%;
+ left: 13%;
+ text-align: left;
+ background-color: #102E44;
+ padding: 2px;
+ opacity: .5;
+}
+
+.text-top-center {
+  position: relative;
+  width:max-content;
+  top: 10%;
+}
+
+.text-middle-center {
+  width: 400px;
+  position: relative;
+  top: 45%;
+  left: 40%;
+}
+
+.text-bottom-right {
+  width: 200px;
+  position: relative;
+  right: 17%;
+  bottom: 13%;
+}
+
+.text-center2{
+  width: 400px;
+  position: relative;
+}
+ */
