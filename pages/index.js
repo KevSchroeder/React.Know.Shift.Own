@@ -65,20 +65,16 @@ export default function Home() {
               </p>
             </div>
           </div>
+                       
         </div>
-      </div>
-      <div className="bg-white py-16 sm:py-24">
-      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        
-          <img
-            className="mt-2 h-full w-full object-cover"
+        <div className="mx-auto max-w-2xl px-6 lg:px-8">
+        <img
+            className="mt-20 md:h-2xl md:w-2xl object-cover"
             src="https://ipfs.filebase.io/ipfs/QmQcrkhXMWoPBuda2su3wi6TAicHJzDVUK7WkscpTjGLhA"
             alt=""
-          />              
+          /> 
           </div>
-        </div>
-      
-      )
+      </div>
     </Layout>
   );
 }

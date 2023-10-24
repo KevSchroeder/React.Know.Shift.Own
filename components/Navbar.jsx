@@ -8,7 +8,7 @@ const navigation = [
   //{ name: 'Schedule', href: '/schedule' },
   //{ name: 'Podcast', href: '#' },
   //{ name: 'Trainings', href: '/trainings' },
-  { name: 'Our Story', href: '/our_story' },
+  { name: 'Our CREDO', href: '/our_story' },
 ]
 
 export default function Navbar() {
@@ -25,13 +25,13 @@ export default function Navbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+            <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-gray-900">
               {item.name}
             </a>
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <Link href="/contact" className="rounded-md bg-[#102E44] px-3 py-2 text-sm font-ubuntu text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          <Link href="/contact" className="rounded-md bg-[#102E44] px-4 py-6 text-md font-ubuntu text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Conatct Us
           </Link>
           {/* <a
