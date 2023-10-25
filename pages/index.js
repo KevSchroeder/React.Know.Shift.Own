@@ -37,9 +37,7 @@ export default function Home() {
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
-            <div className="relative lg:order-last lg:col-span-5">
-              
-              
+            <div className="relative lg:order-last lg:col-span-5">            
             </div>
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
               <h2 className="mt-14 text-2xl font-bold tracking-tight text-gray-900">
@@ -64,8 +62,7 @@ export default function Home() {
                 sustained growth, profitability, and impact.
               </p>
             </div>
-          </div>
-                       
+          </div>                       
         </div>
         <div className="mx-auto max-w-3xl px-6 lg:px-8">
         <img
