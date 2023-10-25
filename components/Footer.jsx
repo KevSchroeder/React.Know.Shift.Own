@@ -99,9 +99,8 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-20 w-auto" src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo" alt="" />
+          <Link href="/" className="rounded-md bg-white px-4 py-6 text-md font-ubuntu text-[#102E44] shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Know. Shift. Own.
           </Link>
             <div className="flex space-x-6">
               {/* {navigation.social.map((item) => (
@@ -154,15 +153,15 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 {/* <h3 className="text-sm font-semibold leading-6 text-white">Contact</h3> */}
-                <Link href="/contact" className="rounded-md bg-[#102E44] px-4 py-6 text-md font-ubuntu text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <Link href="/contact" className="rounded-md bg-white px-10 py-6 text-md font-ubuntu text-[#102E44] shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Conatct Us
           </Link>
               </div>
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-400">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+        <div className="flex items-stretch mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+          <p className="self-center leading-5 text-gray-400">&copy; 2023 Know. Shift. Own LLC All rights reserved.</p>
         </div>
       </div>
     </footer>

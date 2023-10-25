@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>                       
         </div>
-        <div className="mx-auto max-w-3xl px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <img
             className="mt-20 md:h-2xl md:w-2xl object-cover"
             src="https://ipfs.filebase.io/ipfs/QmQcrkhXMWoPBuda2su3wi6TAicHJzDVUK7WkscpTjGLhA"
