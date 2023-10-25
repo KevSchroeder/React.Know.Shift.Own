@@ -34,12 +34,6 @@ export default function Navbar() {
           <Link href="/contact" className="rounded-md bg-[#102E44] px-4 py-6 text-md font-ubuntu text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Conatct Us
           </Link>
-          {/* <a
-            href="/subscribe"
-            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            Subscribe
-          </a> */}
         </div>
         <div className="flex lg:hidden">
           <button
