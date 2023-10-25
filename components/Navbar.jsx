@@ -18,7 +18,7 @@ export default function Navbar() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             <span className="sr-only">Your Company</span>
             <img className="h-20 w-auto" src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo" alt="" />
           </Link>

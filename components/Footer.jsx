@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const navigation = {
   solutions: [
     //{ name: 'Marketing', href: '#' },
@@ -97,11 +99,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img
-              className="h-20"
-              src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo" 
-              alt="Company name"
-            />
+          <Link href="/" className="-m-1.5 p-1.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <span className="sr-only">Your Company</span>
+            <img className="h-20 w-auto" src="https://ipfs.filebase.io/ipfs/QmPJNu6gWSZaaDHbRZnf5RyNug2c64UxUqCHH4CvzFY5uo" alt="" />
+          </Link>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
