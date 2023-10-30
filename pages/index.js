@@ -67,10 +67,24 @@ export default function Home() {
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <img
             className="mt-20 md:h-2xl md:w-2xl object-cover"
-            src="https://ipfs.filebase.io/ipfs/QmQcrkhXMWoPBuda2su3wi6TAicHJzDVUK7WkscpTjGLhA"
+            src=""
             alt=""
           /> 
           </div>
+      </div>
+      <div className="relative overflow-hidden pt-12 lg:pt-20">
+        <div className="mx-auto my-12 max-w-10xl px-6 lg:px-8">
+          <img
+            className="rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+            src="https://ipfs.filebase.io/ipfs/QmR8mgHQzktxvdNw61ShtjyotzmAFE5XwMGdpgAwbYAke5"
+            alt=""
+          /> 
+          <p class = "absolute text-4xl text-white bottom-1/4 left-1/2">
+            “Connecting with innovative companies, people & 
+            ideas that impact today & Create tomorrow through
+            extraordinary Collaboration.”
+          </p>
+        </div>
       </div>
     </Layout>
   );
