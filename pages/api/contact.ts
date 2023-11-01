@@ -23,7 +23,8 @@ export default async function handler(
   `,
   };
 
-
+  let sendgridResponse;
+  
   try {
     sendgridResponse = await sgMail.send(msg);
 
