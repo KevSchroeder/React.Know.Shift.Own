@@ -72,20 +72,13 @@ export default function Home() {
           /> 
           </div>
       </div>
-      <div className="relative overflow-hidden pt-12 lg:pt-20">
-        <div className="mx-auto my-12 max-w-10xl px-6 lg:px-8">
-          <img
-            className="rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-            src="https://ipfs.filebase.io/ipfs/QmR8mgHQzktxvdNw61ShtjyotzmAFE5XwMGdpgAwbYAke5"
+      <div className="bg-white px-6 py-32 lg:px-8">
+      <img
+            className="rounded-xl bg-gray-50 object-cover"
+            src="https://ipfs.filebase.io/ipfs/QmNqMvaABnFo2QnkDLzhsaD3NDHWwo7x9GTTmevmm4sr8t"
             alt=""
-          /> 
-          <p class = "absolute text-4xl text-white bottom-1/4 left-1/2">
-            “Connecting with innovative companies, people & 
-            ideas that impact today & Create tomorrow through
-            extraordinary Collaboration.”
-          </p>
-        </div>
-      </div>
+          />
+     </div>
     </Layout>
   );
 }
